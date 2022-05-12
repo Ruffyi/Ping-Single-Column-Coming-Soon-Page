@@ -138,4 +138,24 @@ html {
   }
 }
 
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.socials__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  margin: 0 1rem;
+  border: 1px solid var(--clr-neutral-gray);
+  font-size: 1.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */

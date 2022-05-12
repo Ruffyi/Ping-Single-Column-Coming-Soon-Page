@@ -1,0 +1,13 @@
+.socials {
+	@include flex-mother();
+	margin-top: 4rem;
+	&__item {
+		@include flex-mother();
+		height: 3rem;
+		width: 3rem;
+		border-radius: 50%;
+		margin: 0 1rem;
+		border: 1px solid var(--clr-neutral-gray);
+		font-size: 1.5rem;
+	}
+}
