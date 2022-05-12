@@ -1,0 +1,6 @@
+.header {
+	@include flex-mother(column);
+	&__logo {
+		margin-bottom: 4rem;
+	}
+}

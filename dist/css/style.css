@@ -20,13 +20,51 @@ html {
   font-family: "Libre Franklin", sans-serif;
 }
 
+.heading__primary {
+  font-size: 3.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  color: var(--clr-neutral-gray);
+}
+.heading__primary--addition {
+  font-weight: 700;
+  color: var(--clr-neutral-very-dark-blue);
+}
+@media (max-width: 36rem) {
+  .heading__primary {
+    font-size: 2.8rem;
+  }
+}
+
+.heading__secondary {
+  font-size: 2rem;
+  font-weight: 300;
+}
+@media (max-width: 36rem) {
+  .heading__secondary {
+    font-size: 1.8rem;
+  }
+}
+
 .main {
   min-height: 100vh;
+  padding: 6rem 0;
 }
 
 .wrapper {
   max-width: 114rem;
   margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header__logo {
+  margin-bottom: 4rem;
 }
 
 /*# sourceMappingURL=style.css.map */
