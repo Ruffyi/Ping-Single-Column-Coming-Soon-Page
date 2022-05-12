@@ -1,3 +1,13 @@
-body {
-	background-color: green;
-}
+@import './abstracts/colors';
+@import './abstracts/variables';
+@import './abstracts/mixins';
+@import './base/reset';
+@import './base/typography';
+@import './pages/main';
+@import './layout/wrapper';
+@import './layout/header';
+@import './layout/footer';
+@import './components/notification';
+@import './components/btn';
+@import './components/background';
+@import './components/socials';
