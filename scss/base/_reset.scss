@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+:root {
+	@each $key, $value in $colors {
+		--clr-#{$key}: #{$value};
+	}
+}
+
+html {
+	box-sizing: border-box;
+	font-size: map-get($fs-map, 'primary');
+	font-family: 'Libre Franklin', sans-serif;
+}
