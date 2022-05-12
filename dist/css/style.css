@@ -49,9 +49,14 @@ html {
   }
 }
 
+.paragraph {
+  font-size: 1.4rem;
+  color: var(--clr-neutral-gray);
+}
+
 .main {
   min-height: 100vh;
-  padding: 6rem 0;
+  padding: 5rem 0;
 }
 
 .wrapper {
@@ -67,6 +72,11 @@ html {
 }
 .header__logo {
   margin-bottom: 4rem;
+}
+
+.footer {
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .notification {
