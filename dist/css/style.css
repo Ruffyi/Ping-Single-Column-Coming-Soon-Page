@@ -120,4 +120,22 @@ html {
   }
 }
 
+.background {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.background img {
+  width: 50%;
+  height: 50%;
+  margin: 2rem 0;
+}
+@media (max-width: 36rem) {
+  .background img {
+    width: 70%;
+    height: 70%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
